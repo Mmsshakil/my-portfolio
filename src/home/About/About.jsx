@@ -15,7 +15,7 @@ const About = () => {
                     <div className="space-y-2">
                         <h1 className="text-xl font-bold text-white">Education Qualification - </h1>
                         <div className="border-2 w-full lg:w-2/3 shadow-lg p-3 space-y-2">
-                            <h1 className="font-semibold text-green-500">2018 - 2022</h1>
+                            <h1 className="text-xl font-bold text-white">2019 - 2022</h1>
                             <p className="font-bold text-green-700">Bachelor&apos;s Degree</p>
                             <p className="text-white font-bold">Bangladesh Army University of Science and Technology, Saidpur</p>
                             <p>I have completed my B.Sc. in Computer Science and Engineering with a CGPA of 3.01. During this period, I have gained knowledge in various courses.</p>
