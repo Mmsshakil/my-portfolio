@@ -12,9 +12,9 @@ import vscode from './../../assets/vscode.png'
 
 const Skills = () => {
     return (
-        <div>
+        <div className='flex justify-center items-center flex-col'>
             <div className="divider divider-success text-4xl font-bold text-white w-1/2 mx-auto my-14">My Skills</div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 '>
                 <div className='w-64 h-64 flex flex-col justify-center items-center gap-0 shadow-lg bg-slate-900 p-8 space-y-2 rounded-lg'>
                     <img className='w-20 mb-4' src={html} alt="" />
                     <p className='text-center font-bold text-2xl text-white'>HTML</p>

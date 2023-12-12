@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa6";
 const Contact = () => {
     return (
         <div>
-            <div className="divider divider-success text-4xl font-bold text-white w-1/2 mx-auto mt-14">Contact Me</div>
+            <div className="divider divider-success text-4xl font-bold text-white w-1/2 mx-auto mt-20">Contact Me</div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-8 md:gap-16  py-10 w-full">
                 <div className="text-center flex flex-col justify-center items-center">
@@ -67,7 +67,7 @@ const Contact = () => {
                             <textarea className="textarea textarea-bordered w-full lg:w-3/4 bg-slate-900" placeholder="Message..."></textarea>
                         </div>
                         <div className="mt-3">
-                            <button className="btn btn-info btn-outline">Submit</button>
+                            <button className="btn btn-info btn-outline">Sent Message</button>
                         </div>
                     </form>
                 </div>
