@@ -2,7 +2,7 @@
 const About = () => {
     return (
         <div id="about">
-            <div className="divider divider-success text-4xl font-bold text-white w-1/2 mx-auto mb-14">About Me</div>
+            <div className="divider divider-success text-2xl md:text-4xl font-bold text-white w-4/5 md:w-1/2 mx-auto mt-10 md:mt-20 mb-5 md:mb-14">About Me</div>
             <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20  mx-auto px-3 md:px-10">
                 <div>
                     <img src="https://i.ibb.co/GHn2yc8/f6d21a89-2356-4bfa-bcd5-ce76df8af87f.png" className="max-w-xs rounded-md p-1 bg-slate-600" />

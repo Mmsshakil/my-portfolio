@@ -1,14 +1,15 @@
 
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { HashLink  } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import resume from "../../../public/Shakil'sResume.pdf"
+import EncryptButton from "../../components/Button/EncryptButton";
 
 
 
 const Navbar = () => {
     return (
-        <div className="navbar fixed z-10 bg-opacity-10 bg-black max-w-screen-xl mx-auto text-white">
+        <div className="navbar fixed z-10 bg-opacity-10 bg-black max-w-screen-xl mx-auto text-white rounded-none lg:rounded-xl">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,7 +33,11 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-sm md:btn-md" href={resume} >Download CV</a>
+                <a  href={resume} >
+                    <EncryptButton
+                        TARGET_TEXT={'Download CV'}
+                    ></EncryptButton>
+                </a>
             </div>
         </div>
     );

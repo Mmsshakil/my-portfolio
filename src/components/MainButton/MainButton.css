@@ -1,0 +1,36 @@
+.customBtn {
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    padding: 8.5px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+/* 11 */
+.btnStyle {
+    border: 1px solid #21ebff;
+    color: #21ebff;
+    box-shadow: 0 0 5px #21ebff, 0 0 5px #21ebff inset;
+    transition: all 0.3s ease;
+  }
+  .btnStyle:hover{
+     text-shadow:
+      0 0 20px #21ebff,
+      0 0 50px rgba(33, 235, 255, .9),
+      0 0 75px rgba(33, 235, 255, .8),
+      0 0 76px rgba(33, 235, 255, .7),
+      0 0 77px rgba(33, 235, 255, .6),
+      0 0 78px rgba(33, 235, 255, .5),
+      0 0 79px rgba(33, 235, 255, .4),
+      0 0 80px rgba(33, 235, 255, .3),
+      0 0 85px rgba(33, 235, 255, .2),
+       0 0 99px rgba(33, 235, 255, .1);
+  }
