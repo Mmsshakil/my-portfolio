@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa6";
 
 const Contact = () => {
     return (
-        <div>
+        <div id="contact">
             <div className="divider divider-success text-4xl font-bold text-white w-1/2 mx-auto mt-20">Contact Me</div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-8 md:gap-16  py-10 w-full">

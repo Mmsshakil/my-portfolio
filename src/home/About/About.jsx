@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <div className="divider divider-success text-4xl font-bold text-white w-1/2 mx-auto mb-14">About Me</div>
             <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20  mx-auto px-3 md:px-10">
                 <div>

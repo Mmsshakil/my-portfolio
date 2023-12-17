@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div className='p-2 lg:p-0'>
+        <div id="projects" className='p-2 lg:p-0'>
             <div className="divider divider-success text-4xl font-bold text-white w-1/2 mx-auto my-14">My Projects</div>
 
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 px-10'>
