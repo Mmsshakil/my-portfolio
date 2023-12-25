@@ -1,0 +1,13 @@
+.nav-item .active{
+    padding-bottom: 12px;
+    border-bottom: 3px solid #21ebff;
+    border-radius: 0%;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    padding-bottom: 12px;
+    border-bottom: 3px solid #21ebff;
+    border-radius: 0%;
+    font-weight: bold;
+}

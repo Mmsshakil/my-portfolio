@@ -16,13 +16,13 @@ const About = () => {
                         <h1 className="text-xl font-bold text-white">Education Qualification - </h1>
                         <div className="border-2 w-full lg:w-2/3 shadow-lg p-3 space-y-2">
                             <h1 className="text-xl font-bold text-white">2019 - 2022</h1>
-                            <p className="font-bold text-green-700">Bachelor&apos;s Degree</p>
+                            <p className="font-bold text-[#21ebff]">Bachelor&apos;s Degree</p>
                             <p className="text-white font-bold">Bangladesh Army University of Science and Technology, Saidpur</p>
                             <p>I have completed my B.Sc. in Computer Science and Engineering with a CGPA of 3.01. During this period, I have gained knowledge in various courses.</p>
                         </div>
                         <div className="border-2 w-full lg:w-2/3 shadow-lg p-3 space-y-2">
                             <h1 className="text-xl font-bold text-white">2015 - 2017</h1>
-                            <p className="font-bold text-green-700">Higher Secondary Degree</p>
+                            <p className="font-bold text-[#21ebff]">Higher Secondary Degree</p>
                             <p className="text-white font-bold">Govt. Science College, Dhaka</p>
                             <p>I completed my HSC with a CGPA of 4.17. Due to some challenging times in my life, it was difficult for me, and as a result, I didn&apos;t achieve a higher grade.</p>
                         </div>

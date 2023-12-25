@@ -57,7 +57,7 @@ const EncryptButton = ({ TARGET_TEXT }) => {
             }}
             onMouseEnter={scramble}
             onMouseLeave={stopScramble}
-            className="group relative overflow-hidden rounded-none border-[1px] border-[#21ebff] bg-slate-700 px-2 md:px-4 py-1 md:py-2 font-mono font-medium uppercase text-slate-300 transition-colors hover:text-indigo-300"
+            className="group relative overflow-hidden rounded-none border-[1px] border-[#21ebff] bg-slate-700 px-2 md:px-4 py-1 md:py-2 font-mono font-medium uppercase text-slate-300 transition-colors hover:text-[#21ebff]"
         >
             <div className="relative z-10 flex items-center gap-1 md:gap-2 ">
                 <RiDownload2Fill />
@@ -76,7 +76,7 @@ const EncryptButton = ({ TARGET_TEXT }) => {
                     duration: 1,
                     ease: "linear",
                 }}
-                className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t from-indigo-400/0 from-40% via-indigo-400/100 to-indigo-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
+                className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t from-indigo-400/0 from-40% via-white to-indigo-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
             />
         </motion.button>
     );
