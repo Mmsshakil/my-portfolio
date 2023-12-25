@@ -57,7 +57,7 @@ const EncryptButton = ({ TARGET_TEXT }) => {
             }}
             onMouseEnter={scramble}
             onMouseLeave={stopScramble}
-            className="group relative overflow-hidden rounded-lg border-[1px] border-slate-500 bg-slate-700 px-2 md:px-4 py-1 md:py-2 font-mono font-medium uppercase text-slate-300 transition-colors hover:text-indigo-300"
+            className="group relative overflow-hidden rounded-none border-[1px] border-[#21ebff] bg-slate-700 px-2 md:px-4 py-1 md:py-2 font-mono font-medium uppercase text-slate-300 transition-colors hover:text-indigo-300"
         >
             <div className="relative z-10 flex items-center gap-1 md:gap-2 ">
                 <RiDownload2Fill />

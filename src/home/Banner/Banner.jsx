@@ -2,13 +2,15 @@
 import DotGrid from "../../components/DotGrid/DotGrid";
 import { TypeAnimation } from 'react-type-animation';
 import MainButton from "../../components/MainButton/MainButton";
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-scroll";
 
 
 const Banner = () => {
     return (
-        <div className="hero pt-20 lg:pt-36 ">
-            <div className="hero-content flex-col md:flex-row-reverse gap-20 md:gap-5 lg:gap-32">
-                <div className="absolute right-0 top-0 md:hidden lg:block lg:top-36 lg:right-6 -z-10">
+        <div id="home" className="hero pt-20 lg:pt-36 ">
+            <div className="hero-content relative flex-col md:flex-row-reverse gap-20 md:gap-5 lg:gap-32">
+                <div className="absolute right-0 -top-20 md:hidden lg:block lg:top-0 lg:-right-24 -z-10">
                     <DotGrid></DotGrid>
                 </div>
                 <img src="https://i.ibb.co/GHn2yc8/f6d21a89-2356-4bfa-bcd5-ce76df8af87f.png" className=" max-w-[250px] lg:max-w-[365px]  rounded-md p-1 bg-slate-600" />
@@ -39,12 +41,30 @@ const Banner = () => {
 
                     <div className="flex gap-7 justify-center md:justify-start mt-5">
                         {/* <button className="btn btn-primary">View Works</button> */}
-                        <MainButton
-                            btnTytle={"View Work"}
-                        ></MainButton>
-                        <MainButton
-                            btnTytle={"Hire Me"}
-                        ></MainButton>
+                        <Link
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                            offset={-80}
+                            duration={1000}
+                            to="projects">
+                            <MainButton
+                                btnTytle={"View Work"}
+                            ></MainButton>
+                        </Link>
+
+                        <Link
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                            offset={-80}
+                            duration={1000}
+                            to="contact">
+                            <MainButton
+                                btnTytle={"Hire Me"}
+                            ></MainButton>
+                        </Link>
+
 
                     </div>
                 </div>
