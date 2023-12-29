@@ -5,12 +5,32 @@ import resume from "../../../public/Shakil'sResume.pdf"
 import EncryptButton from "../../components/Button/EncryptButton";
 import { Link } from "react-scroll";
 import './Navbar.css'
+import { useState } from "react";
 
 
 
 const Navbar = () => {
+
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 80) {
+            setNavbar(true);
+        }
+        else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
+
     return (
-        <div className="navbar fixed z-10 bg-opacity-10 bg-black max-w-screen-xl mx-auto text-white rounded-none lg:rounded-xl">
+        <div className={navbar ?
+            'navbar fixed z-10 bg-opacity-50 bg-black max-w-screen-xl mx-auto text-white rounded-none'
+            :
+            "navbar fixed z-10 bg-opacity-0 bg-none max-w-screen-xl mx-auto text-white rounded-none"
+        }>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
