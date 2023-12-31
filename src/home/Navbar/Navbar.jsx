@@ -26,10 +26,12 @@ const Navbar = () => {
 
 
     return (
-        <div className={navbar ?
-            'navbar fixed z-10 bg-opacity-50 bg-black max-w-screen-xl mx-auto text-white rounded-none'
+        <div
+        
+        className={navbar ?
+            'navbar fixed z-10 bg-opacity-50 bg-black max-w-screen-xl mx-auto text-white rounded-none '
             :
-            "navbar fixed z-10 bg-opacity-0 bg-none max-w-screen-xl mx-auto text-white rounded-none"
+            "navbar fixed z-10 bg-opacity-0 bg-none max-w-screen-xl mx-auto text-white rounded-none "
         }>
             <div className="navbar-start">
                 <div className="dropdown">

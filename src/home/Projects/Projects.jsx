@@ -4,14 +4,22 @@ import electro from '../../assets/technology.png'
 import assingment from '../../assets/assingment.png'
 import course from '../../assets/course.png'
 import { NavLink } from 'react-router-dom';
-import MainButton from '../../components/MainButton/MainButton';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Projects = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: "1500" })
+    }, [])
+
+
     return (
-        <div id="projects" className='p-2 lg:p-0'>
+        <div  id="projects" className='p-2 lg:p-0'>
             <div className="divider divider-success text-2xl md:text-4xl font-bold text-white w-4/5 md:w-1/2 mx-auto mt-10 md:mt-20 mb-5 md:mb-14">My Projects</div>
 
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 px-10'>
+            <div data-aos="zoom-in" className='grid grid-cols-1 lg:grid-cols-2 gap-16 px-10'>
                 <div className=' border-2 rounded-lg'>
                     <img className='w-full' src={blood} alt="" />
                     <div className='p-5'>
@@ -35,7 +43,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='border-2 rounded-lg'>
+                <div data-aos="zoom-in" className='border-2 rounded-lg'>
                     <img className='w-full' src={electro} alt="" />
                     <div className='p-5'>
                         <h1 className='text-2xl font-bold text-white'>Electronics Shop</h1>
@@ -54,7 +62,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='border-2 rounded-lg'>
+                <div data-aos="zoom-in" className='border-2 rounded-lg'>
                     <img className='w-full' src={assingment} alt="" />
                     <div className='p-5'>
                         <h1 className='text-2xl font-bold text-white'>Assingment Management</h1>
@@ -73,7 +81,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='border-2 rounded-lg'>
+                <div data-aos="zoom-in" className='border-2 rounded-lg'>
                     <img className='w-full' src={course} alt="" />
                     <div className='p-5'>
                         <h1 className='text-2xl font-bold text-white'>Course Registration</h1>

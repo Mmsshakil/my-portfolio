@@ -23,7 +23,7 @@ const Slider = () => {
                 loop={true}
                 pagination={true}
                 modules={[Pagination]}
-                autoplay={{ delay: 500 }}
+                autoplay={{ delay: 5000 }}
                 className="mySwiper"
             >
                 <SwiperSlide>

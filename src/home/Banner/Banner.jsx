@@ -2,18 +2,27 @@
 import DotGrid from "../../components/DotGrid/DotGrid";
 import { TypeAnimation } from 'react-type-animation';
 import MainButton from "../../components/MainButton/MainButton";
-import { HashLink } from "react-router-hash-link";
 import { Link } from "react-scroll";
+// import { motion, useScroll } from "framer-motion";
+import img from '../../assets/img (1).png'
 
 
 const Banner = () => {
+
+    // const { scrollYProgress } = useScroll();
+
     return (
         <div id="home" className="hero pt-20 lg:pt-36 ">
+            {/* <motion.div
+                className="progress-bar"
+                style={{ scaleX: scrollYProgress }}
+            />
+            <code>useScroll</code> */}
             <div className="hero-content relative flex-col md:flex-row-reverse gap-20 md:gap-5 lg:gap-32">
                 <div className="absolute right-0 -top-20 md:hidden lg:block lg:top-0 lg:-right-24 -z-10">
                     <DotGrid></DotGrid>
                 </div>
-                <img src="https://i.ibb.co/GHn2yc8/f6d21a89-2356-4bfa-bcd5-ce76df8af87f.png" className=" max-w-[250px] lg:max-w-[365px]  rounded-md p-1 bg-slate-600" />
+                <img src={img} className=" max-w-[300px] lg:max-w-[365px]  p-1 bg-none" />
                 <div className="">
                     <h1 className="text-3xl mb-2 font-bold text-[#21ebff]">Hi,</h1>
                     {/* <h1 className="text-4xl font-bold text-white">I&apos;m M. M. Shahriar Shakil</h1> */}

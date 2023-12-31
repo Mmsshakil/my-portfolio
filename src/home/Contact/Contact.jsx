@@ -84,21 +84,21 @@ const Contact = () => {
                             <label className="label">
                                 <span className="label-text">Name</span>
                             </label>
-                            <input name="name" className="p-3 rounded-md w-full lg:w-3/4 bg-slate-900" type="text" placeholder="Name" />
+                            <input name="name" className="p-3 rounded-md w-full lg:w-3/4 bg-slate-900" type="text" placeholder="Name" required />
                         </div>
 
                         <div>
                             <label className="label mt-2">
                                 <span className="label-text">Email</span>
                             </label>
-                            <input name="email" className="p-3 rounded-md w-full lg:w-3/4 bg-slate-900" type="email" placeholder="Email" />
+                            <input name="email" className="p-3 rounded-md w-full lg:w-3/4 bg-slate-900" type="email" placeholder="Email" required />
                         </div>
 
                         <div>
                             <label className="label mt-2">
                                 <span className="label-text">Message</span>
                             </label>
-                            <textarea name="message" className="textarea textarea-bordered w-full lg:w-3/4 bg-slate-900" placeholder="Message..."></textarea>
+                            <textarea name="message" className="textarea textarea-bordered w-full lg:w-3/4 bg-slate-900" placeholder="Message..." required></textarea>
                         </div>
                         <div className="mt-3">
                             <button className="btn btn-info btn-outline rounded-none">Sent Message</button>
