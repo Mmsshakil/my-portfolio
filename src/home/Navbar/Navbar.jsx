@@ -1,7 +1,7 @@
 
 
 // import { HashLink } from "react-router-hash-link";
-import resume from "../../../public/Shakil'sResume.pdf"
+import resume from "../../../public/M M Shahriar Shakil_Resume.pdf"
 import EncryptButton from "../../components/Button/EncryptButton";
 import { Link } from "react-scroll";
 import './Navbar.css'
